@@ -6,3 +6,39 @@
 body {
   background-color: #26619a;
 }
+
+/*    
+    newDiv.classList.add("tab");
+    number.classList.add("number");
+    heading.classList.add("title");
+    text.classList.add("body");
+ */
+
+.tab {
+  background-color: rgb(16, 189, 233);
+  margin: 20px;
+  padding: 20px 30px;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  color: blue;
+  background-color: azure;
+}
+
+.title {
+  color: azure;
+  margin-bottom: 10px;
+}
+
+.body {
+  color: azure;
+}
